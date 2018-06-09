@@ -1,0 +1,3 @@
+plasma-browser-integration: dir-or-file-in-etc-opt etc/opt/chrome/
+plasma-browser-integration: dir-or-file-in-etc-opt etc/opt/chrome/native-messaging-hosts/
+plasma-browser-integration: dir-or-file-in-etc-opt etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
