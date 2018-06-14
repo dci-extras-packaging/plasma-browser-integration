@@ -6,7 +6,3 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DINSTALL_CHROME_MANIFEST=ON -DCHROMIUM_EXTENSIONS_DIR=chromium-browser
-
-# can't override error dir-or-file-in-etc-opt but we want to keep it
-lintian:
-	true
