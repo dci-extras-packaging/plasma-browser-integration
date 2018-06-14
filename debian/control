@@ -1,10 +1,9 @@
 Source: plasma-browser-integration
 Section: kde
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake (>= 2.8.12),
                dbus-x11,
-               debhelper (>= 9),
+               debhelper (>= 11),
                extra-cmake-modules (>= 5.18.0~),
                libkf5activities-dev (>= 5.18.0~),
                libkf5i18n-dev (>= 5.18.0~),
@@ -14,13 +13,16 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5windowsystem-dev (>= 5.18.0~),
                pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
-Homepage: https://projects.kde.org/projects/kde/workspace/khotkeys
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/khotkeys.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/khotkeys.git
+Standards-Version: 4.1.4
+Homepage: https://www.kde.org/plasma-desktop.php
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-browser-integration.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-browser-integration
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Clark <sgclark@kde.org>
 
 Package: plasma-browser-integration
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Chromium integration for Plasma
- Integrates Chromium browser with KDE Plasma desktop.
+ Components necessary to integrate browsers into
+ the Plasma Desktop.

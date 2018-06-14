@@ -1,5 +1,5 @@
-plasma-browser-integration (0.0-0neon) xenial; urgency=medium
+plasma-browser-integration (5.12.90-1) UNRELEASED; urgency=medium
 
-  * Initial package
+  * Initial release. (Closes: #890778) 
 
- -- Neon CI <neon@kde.org>  Tue, 28 Feb 2017 16:27:09 +0000
+ -- Scarlett Clark <sgclark@kde.org>  Tue, 05 Jun 2018 05:54:02 -0700
