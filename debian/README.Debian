@@ -1,0 +1,9 @@
+Multitask efficiently by controlling browser functions from the desktop, even while Chrome is in the background. Manage audio and video playback, check downloads in the notification area, send files to your phone using KDE Connect and more inside the KDE Plasma Desktop!
+.
+Currently, to get it fully working, you need to also install the
+browser extension from the Web Store.
+.
+Create symbolic link "ln -s /usr/share/plasma-browser-plugin/chrome /etc/opt/chrome"
+https://chrome.google.com/webstore/detail/plasma-integration/cimiefiiaegbelhefglklhhakcgmhkai
+.
+https://addons.mozilla.org/en-US/firefox/addon/plasma-integration/
