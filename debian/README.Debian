@@ -1,0 +1,10 @@
+Google Chrome and Firefox integration
+Currently, to get it fully working, you need to also install the
+browser extension from the Web Store.
+Chrome:
+Create symbolic link:
+ ln -s /usr/share/plasma-browser-plugin/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json \
+ /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
+https://chrome.google.com/webstore/detail/plasma-integration/cimiefiiaegbelhefglklhhakcgmhkai
+Firefox:
+https://addons.mozilla.org/en-US/firefox/addon/plasma-integration/
