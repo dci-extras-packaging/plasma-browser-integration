@@ -1,18 +1,20 @@
 Source: plasma-browser-integration
 Section: kde
 Priority: optional
-Build-Depends: cmake (>= 2.8.12),
+Build-Depends: cmake (>= 3.0~),
                dbus-x11,
                debhelper (>= 11),
-               extra-cmake-modules (>= 5.18.0~),
-               libkf5activities-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5kio-dev (>= 5.18.0~),
-               libkf5notifications-dev (>= 5.18.0~),
-               libkf5runner-dev (>= 5.18.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.42.0~),
+               libkf5activities-dev (>= 5.42.0~),
+               libkf5config-dev (>= 5.42.0~),
+               libkf5dbusaddons-dev (>= 5.42.0~),
+               libkf5i18n-dev (>= 5.42.0~),
+               libkf5kio-dev (>= 5.42.0~),
+               libkf5notifications-dev (>= 5.42.0~),
+               libkf5runner-dev (>= 5.42.0~),
+               libkf5windowsystem-dev (>= 5.42.0~),
                pkg-kde-tools (>= 0.15.18~),
-               qtbase5-dev (>= 5.4)
+               qtbase5-dev (>= 5.9.0~),
 Standards-Version: 4.1.4
 Homepage: https://www.kde.org/plasma-desktop.php
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-browser-integration.git
