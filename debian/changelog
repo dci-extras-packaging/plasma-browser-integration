@@ -1,4 +1,4 @@
-plasma-browser-integration (5.13.1-1~) UNRELEASED; urgency=medium
+plasma-browser-integration (5.13.1-1~1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release. (Closes: #890778)
@@ -7,5 +7,11 @@ plasma-browser-integration (5.13.1-1~) UNRELEASED; urgency=medium
   * Migrate to dh 11
   * Update watch file
   * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * Update copyright information
+  * Force auto installation to debian/tmp
+  * Add call to dh_missing
+  * Move the chromium native-messaging-hosts file to usr/share
+  * Avoid installing the manifests
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Jun 2018 10:47:35 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Jun 2018 12:16:17 +0200
