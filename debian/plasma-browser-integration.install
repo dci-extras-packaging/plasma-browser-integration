@@ -1,2 +1,3 @@
-/etc/opt/chrome/ /usr/share/plasma-browser-integration/
-/usr/
+etc/opt/chrome/ usr/share/plasma-browser-integration/
+etc/chromium/   usr/share/plasma-browser-integration/
+usr/
