@@ -2,11 +2,9 @@
 # -*- makefile -*-
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5 --without build_stamp
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DINSTALL_CHROME_MANIFEST=ON -DCHROMIUM_EXTENSIONS_DIR=chromium-browser
-
-override_dh_auto_configure:
-	$(overridden_command)
-	mv /etc/opt/chrome /usr/share/plasma-browser-integration/
+	dh_auto_configure -- -DINSTALL_CHROME_MANIFEST=ON -DCHROMIUM_EXTENSIONS_DIR=chromium-browser
