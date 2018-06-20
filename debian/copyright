@@ -3,52 +3,51 @@ Upstream-Name: plasma-browser-integration
 Source: https://projects.kde.org/projects/kde/workspace/plasma-browser-integration
 
 Files: *
-Copyright: 2017, Kai Uwe Broulik <kde@privat.broulik.de>
+Copyright: 2007, Free Software Foundation, Inc. <http://fsf.org/>
+           2017, Kai Uwe Broulik <kde@privat.broulik.de>
+           2017, This_file_is_part_of_KDE
 License: GPL-3+
 
-Files: debian/*
-Copyright: 2018 Scarlett Clark <sgclark@kde.org>
-  2018 Jonathan Riddell <jr@jriddell.org>
-License: GPL-2+
-
 Files: host/*
-Copyright: 2017 Kai Uwe Broulik <kde@privat.broulik.de>
-  2017 David Edmundson <davidedmundson@kde.org>
+Copyright: 2017, David Edmundson <davidedmundson@kde.org>
+           2017, Kai Uwe Broulik <kde@privat.broulik.de>
 License: Expat
+
+Files: po/ca/*
+       po/ca@valencia/*
+       po/uk/*
+Copyright: 2017, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
 
 Files: reminder/*
-Copyright: 2018 Eike Hein <hein@kde.org>
-  2018 David Edmundson <davidedmundson@kde.org>
-  2009 Marco Martin <notmart@gmail.com>
+Copyright: 2018, David Edmundson <davidedmundson@kde.org>
+           2018, Eike Hein <hein@kde.org>
+           2009, Marco Martin <notmart@gmail.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2018, Scarlett Clark <sgclark@kde.org>
+           2018, Jonathan Riddell <jr@jriddell.org>
 License: GPL-2+
 
 License: Expat
- The MIT License
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
  .
- Permission is hereby granted, free of charge, to any person
- obtaining a copy of this software and associated
- documentation files (the "Software"), to deal in the Software
- without restriction, including without limitation the rights to
- use, copy, modify, merge, publish, distribute, sublicense,
- and/or sell copies of the Software, and to permit persons to
- whom the Software is furnished to do so, subject to the
- following conditions:
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
  .
- The above copyright notice and this permission notice shall
- be included in all copies or substantial portions of the
- Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
- WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
- INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- MERCHANTABILITY, FITNESS FOR A PARTICULAR
- PURPOSE AND NONINFRINGEMENT. IN NO EVENT
- SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
- LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
- TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
@@ -60,20 +59,29 @@ License: GPL-2+
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the
- Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  --
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.
 
 License: GPL-3+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; version 3 dated June, 2007, or (at
- your option) any later version.
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 3 of
+ the License, or (at your option) any later version.
  .
- On Debian systems, the complete text of version 3 of the GNU General
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ --
+ The complete text of version 3 of the GNU General
  Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ --
+ The complete text of the GNU Lesser General Public License version 2.1 can be
+ found in `/usr/share/common-licenses/LGPL-2.1', likewise, the complete text
+ of the GNU Lesser General Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
