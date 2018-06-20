@@ -1,5 +1,11 @@
-plasma-browser-integration (5.12.90-1) UNRELEASED; urgency=medium
+plasma-browser-integration (5.13.1-1~) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Initial release. (Closes: #890778)
 
- -- Scarlett Clark <sgclark@kde.org>  Tue, 05 Jun 2018 05:54:02 -0700
+  [ Maximiliano Curia ]
+  * Migrate to dh 11
+  * Update watch file
+  * New upstream release (5.13.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Jun 2018 10:47:35 +0200
