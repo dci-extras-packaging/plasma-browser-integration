@@ -25,7 +25,7 @@ The extension can be found in the webstore here:
 Also, in order for the extension work, google-chrome needs a configuration file
 that sets the host tool that receives the events. The configuration file is
 shipped in:
-/usr/share/plasma-browser-plugin/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
+ /usr/share/plasma-browser-integration/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
 
 To enable it you'll need to create the corresponding configuration dir:
 
@@ -33,7 +33,7 @@ To enable it you'll need to create the corresponding configuration dir:
 
 And create a symbolic link:
 
- ln -s /usr/share/plasma-browser-plugin/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json \
+ ln -s /usr/share/plasma-browser-integration/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json \
   /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
 
 Currently, these steps can't be part of our packages, as we are not supposed
