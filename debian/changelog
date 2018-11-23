@@ -1,10 +1,11 @@
-plasma-browser-integration (5.14.3-1~) UNRELEASED; urgency=medium
+plasma-browser-integration (5.14.3-1) unstable; urgency=medium
 
   * Fix wrong path in the README.Debian file.
     Thanks to acheronuk
   * New upstream release (5.14.3).
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Nov 2018 10:26:44 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:51:03 -0300
 
 plasma-browser-integration (5.13.5-1) unstable; urgency=medium
 
