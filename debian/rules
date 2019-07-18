@@ -9,8 +9,16 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 override_dh_auto_configure:
 	dh_auto_configure -- -DINSTALL_CHROME_MANIFEST=OFF
 
+# Use debian/postinst to install the Chrome conffile
+# and debian/postrm to remove it since dpkg's automatic
+# conffile handling doesn't handle the special /etc/opt/ directory
+# https://bugs.debian.org/888549
 override_dh_auto_install:
-	dh_auto_install --destdir=debian/tmp
+	dh_auto_install
+	mkdir -p debian/plasma-browser-integration/usr/share/plasma-browser-integration
+	mv debian/plasma-browser-integration/etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json \
+		debian/plasma-browser-integration/usr/share/plasma-browser-integration/org.kde.plasma.browser_integration.json
+	rm -rf debian/plasma-browser-integration/etc/opt
 
 override_dh_missing:
 	dh_missing --list-missing
