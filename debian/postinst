@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+mkdir -p /etc/opt/chrome/native-messaging-hosts
+ln -s /usr/share/plasma-browser-integration/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json /etc/opt/chrome/native-messaging-hosts/
+
+exit 0

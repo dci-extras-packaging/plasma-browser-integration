@@ -1,0 +1,4 @@
+# Update debian/postrm when you remove these lines
+rm_conffile /etc/opt/chrome/policies/managed/org.kde.plasma.browser_integration.json 5.14.5-1~
+rm_conffile /etc/chromium/policies/managed/org.kde.plasma.browser_integration.json 5.14.5-1~
+rm_conffile /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json 5.14.5-1~
