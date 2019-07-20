@@ -9,8 +9,6 @@ case "$1" in
 
     # Avoid a piuparts error. See https://bugs.debian.org/888549
     rm -f /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
-    # These 2 lines are unnecessary as long as debian/maintscript
-    # includes an /etc/opt/chrome/ file
     rmdir /etc/opt/chrome/native-messaging-hosts || true
     rmdir /etc/opt/chrome/ || true
     mkdir -p /etc/opt/
