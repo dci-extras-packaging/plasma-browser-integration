@@ -1,7 +1,6 @@
 plasma-browser-integration (5.14.5-2) UNRELEASED; urgency=medium
 
   * Fix "Incorrect installation directory for chrome config file"
-     - Added maintscript to cleanup up config files.
      - Added postinst/postrm to handle symlinks to opt/etc
        that chrome expects.
      - Adjusted rules file to move files to usr/share dpkg expects.
