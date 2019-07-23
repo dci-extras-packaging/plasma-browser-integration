@@ -21,20 +21,3 @@ Google Chrome
 
 The extension can be found in the webstore here:
  https://chrome.google.com/webstore/detail/plasma-integration/cimiefiiaegbelhefglklhhakcgmhkai
-
-Also, in order for the extension work, google-chrome needs a configuration file
-that sets the host tool that receives the events. The configuration file is
-shipped in:
- /usr/share/plasma-browser-integration/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
-
-To enable it you'll need to create the corresponding configuration dir:
-
- mkdir -p /etc/opt/chrome/native-messaging-hosts
-
-And create a symbolic link:
-
- ln -s /usr/share/plasma-browser-integration/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json \
-  /etc/opt/chrome/native-messaging-hosts/org.kde.plasma.browser_integration.json
-
-Currently, these steps can't be part of our packages, as we are not supposed
-to touch /etc/opt from the distribution packages (https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch03s13.html)
