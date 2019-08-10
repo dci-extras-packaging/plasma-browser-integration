@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Build-Depends: cmake (>= 3.0~),
                dbus-x11,
-               debhelper (>= 11),
+               debhelper (>= 12),
                extra-cmake-modules (>= 5.42.0~),
                libkf5activities-dev (>= 5.42.0~),
                libkf5config-dev (>= 5.42.0~),
