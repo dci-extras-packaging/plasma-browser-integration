@@ -15,6 +15,7 @@ plasma-browser-integration (5.16.4-1) UNRELEASED; urgency=medium
   * Update copyright file.
   * Use secure copyright format.
   * Bump compat level to 12.
+  * Bump standards version to 4.4.0; no changes needed.
 
  -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 15:39:36 -0700
 
