@@ -13,6 +13,7 @@ plasma-browser-integration (5.16.4-1) UNRELEASED; urgency=medium
     (Closes: #903919)
   * Update my name and email.
   * Update copyright file.
+  * Use secure copyright format.
 
  -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 15:39:36 -0700
 
