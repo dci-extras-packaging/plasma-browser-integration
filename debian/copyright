@@ -3,63 +3,63 @@ Upstream-Name: plasma-browser-integration
 Source: https://projects.kde.org/projects/kde/workspace/plasma-browser-integration
 
 Files: *
-Copyright: 2017-2019 Kai Uwe Broulik <kde@privat.broulik.de>
-           2018 David Edmundson <davidedmundson@kde.org>
-           2017-2019 Vít Pelčák <vit@pelcak.org>
-           2018-2019 Martin Schlander <mschlander@opensuse.org>
-           2017-2019 Burkhard Lück <lueck@hube-lueck.de>
-           2017-2019 Steve Allewell <steve.allewell@gmail.com>
-           2017-2019 Eloy Cuadra <ecuadra@eloihr.net>
-           2019 Iñigo Salvador Azurmendi <xalba@euskalnet.net>
-           2017-2019 Tommi Nieminen <translator@legisign.org>
-           2019 William Oprandi <william.oprandi@gmail.com>
-           2018 Simon Depiets <sdepiets@gmail.com>
-           2017 Vincent Pinon <vpinon@kde.org>
-           2017-2019 Adrián Chaves (Gallaecio) <adrian@chaves.io>
-           2018, 2019 Wantoyo <wantoyek@gmail.com>
-           2017-2019 Luigi Toscano <luigi.toscano@tiscali.it>
-           2019 Japanese KDE translation team <kde-jp@kde.org>
-           2017-2019 Shinjo Park <kde@peremen.name>
-           2018 Øystein Steffensen-Alværvik <ystein@posteo.net>
-           2017-2019 Freek de Kruijf <freekdekruijf@kde.nl>
-           2018, 2019 Karl Ove Hufthammer <karl@huftis.org>
-           2017 A S Alam <aalam@users.sf.net>
-           2017-2019 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
-           2019 José Nuno Coelho Pires <zepires@gmail.com>
-           2017-2019 Luiz Fernando Ranghetti <elchevive@opensuse.org>
-           2019 Alexander Yavorsky <kekcuha@gmail.com>
-           2017, 2018 Alexander Potashev <aspotashev@gmail.com>
-           2017-2019 Roman Paholik <wizzardsk@gmail.com>
-           2019 Matej Mrenica <matejm98mthw@gmail.com>
-           2018 Andrej Mernik <andrejm@ubuntu.si>
-           2017 Chusslove Illich <caslav.ilic@gmx.net>
-           2017-2019 Stefan Asserhäll <stefan.asserhall@bredband.net>
-           2017 Kaan <kaanozdincer@gmail.com>
-           2019 Guo Yunhe (guoyunhe)
-           2019 pan93412 <pan93412@gmail.com>
+Copyright: 2017-2019, Kai Uwe Broulik <kde@privat.broulik.de>
+           2018, David Edmundson <davidedmundson@kde.org>
+           2017-2019, Vít Pelčák <vit@pelcak.org>
+           2018-2019, Martin Schlander <mschlander@opensuse.org>
+           2017-2019, Burkhard Lück <lueck@hube-lueck.de>
+           2017-2019, Steve Allewell <steve.allewell@gmail.com>
+           2017-2019, Eloy Cuadra <ecuadra@eloihr.net>
+           2019, Iñigo Salvador Azurmendi <xalba@euskalnet.net>
+           2017-2019, Tommi Nieminen <translator@legisign.org>
+           2019, William Oprandi <william.oprandi@gmail.com>
+           2018, Simon Depiets <sdepiets@gmail.com>
+           2017, Vincent Pinon <vpinon@kde.org>
+           2017-2019, Adrián Chaves (Gallaecio) <adrian@chaves.io>
+           2018-2019, Wantoyo <wantoyek@gmail.com>
+           2017-2019, Luigi Toscano <luigi.toscano@tiscali.it>
+           2019, Japanese KDE translation team <kde-jp@kde.org>
+           2017-2019, Shinjo Park <kde@peremen.name>
+           2018, Øystein Steffensen-Alværvik <ystein@posteo.net>
+           2017-2019, Freek de Kruijf <freekdekruijf@kde.nl>
+           2018-2019, Karl Ove Hufthammer <karl@huftis.org>
+           2017, A S Alam <aalam@users.sf.net>
+           2017-2019, Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           2019, José Nuno Coelho Pires <zepires@gmail.com>
+           2017-2019, Luiz Fernando Ranghetti <elchevive@opensuse.org>
+           2019, Alexander Yavorsky <kekcuha@gmail.com>
+           2017-2018, Alexander Potashev <aspotashev@gmail.com>
+           2017-2019, Roman Paholik <wizzardsk@gmail.com>
+           2019, Matej Mrenica <matejm98mthw@gmail.com>
+           2018, Andrej Mernik <andrejm@ubuntu.si>
+           2017, Chusslove Illich <caslav.ilic@gmx.net>
+           2017-2019, Stefan Asserhäll <stefan.asserhall@bredband.net>
+           2017, Kaan <kaanozdincer@gmail.com>
+           2019, Guo Yunhe (guoyunhe)
+           2019, pan93412 <pan93412@gmail.com>
 License: GPL-3+
 
 Files: host/*
-Copyright: 2017 David Edmundson <davidedmundson@kde.org>
-           2017 Kai Uwe Broulik <kde@privat.broulik.de>
+Copyright: 2017, David Edmundson <davidedmundson@kde.org>
+           2017, Kai Uwe Broulik <kde@privat.broulik.de>
 License: Expat
 
 Files: po/ca/*
        po/ca@valencia/*
        po/uk/*
-Copyright: 2017-2019 Josep Ma. Ferrer <txemaq@gmail.com>
-           2017-2019 Yuri Chornoivan <yurchor@ukr.net>
+Copyright: 2017-2019, Josep Ma. Ferrer <txemaq@gmail.com>
+           2017-2019, Yuri Chornoivan <yurchor@ukr.net>
 License: LGPL-2.1 or LGPL-3 or KDEeV
 
 Files: reminder/*
-Copyright: 2018 David Edmundson <davidedmundson@kde.org>
-           2018 Eike Hein <hein@kde.org>
-           2009 Marco Martin <notmart@gmail.com>
+Copyright: 2018, David Edmundson <davidedmundson@kde.org>
+           2018, Eike Hein <hein@kde.org>
+           2009, Marco Martin <notmart@gmail.com>
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2018 Scarlett Moore <sgmoore@kde.org>
-           2018 Jonathan Riddell <jr@jriddell.org>
+Copyright: 2018, Scarlett Moore <sgmoore@kde.org>
+           2018, Jonathan Riddell <jr@jriddell.org>
 License: GPL-2+
 
 License: Expat
