@@ -1,5 +1,6 @@
-plasma-browser-integration (5.16.4-1) UNRELEASED; urgency=medium
+plasma-browser-integration (5.16.4-1) unstable; urgency=medium
 
+  [ Scarlett Moore ]
   * Fix "Incorrect installation directory for chrome config file"
      - Added postinst/postrm to handle symlinks to opt/etc
        that chrome expects.
@@ -16,8 +17,13 @@ plasma-browser-integration (5.16.4-1) UNRELEASED; urgency=medium
   * Use secure copyright format.
   * Bump compat level to 12.
   * Bump standards version to 4.4.0; no changes needed.
+  * Add back commas in copyright.
+  * Use decopy friendly short license.
 
- -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 15:39:36 -0700
+  [ Maximiliano Curia ]
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 11 Aug 2019 21:40:53 -0300
 
 plasma-browser-integration (5.14.5-1) unstable; urgency=medium
 
