@@ -25,6 +25,8 @@ Uploaders: Scarlett Moore <sgmoore@kde.org>
 Package: plasma-browser-integration
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: plasma-browser-intgration (<= 5.16.4-1~)
+Replaces: plasma-browser-intgration (<= 5.16.4-1~)
 Description: Chromium, Google Chrome, Firefox integration for Plasma
  Plasma Browser Integration is an extension for common browsers
  to closer fit into the Plasma shell. This includes:
